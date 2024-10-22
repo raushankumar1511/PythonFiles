@@ -1,0 +1,20 @@
+import os
+os.getcwd()
+#f=open('cse.txt','w')
+#f.write("i am a good boy")
+#print(" witten succesfully")
+#f.close()
+#f=open('cse.txt','a')
+#f.write('aniket and raushan plays basketball')
+#f.write('but aniket plays better')
+#print('appended sucessfully')
+#f.close()
+#f=open('cse.txt','w')
+#list=['rmadshhjk kljelcn hjefoin ','guu,6545']
+#f.writelines(list)
+#print('sucess')
+#f.close()
+f=open('cse.txt','r')
+read=f.read("cse.txt")
+print(read)
+
